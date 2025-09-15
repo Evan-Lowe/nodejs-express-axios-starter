@@ -9,7 +9,7 @@ on:
     - cron: '0 0 * * *' # Runs every day at midnight UTC
 
 jobs:
-  lint:
+  audit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
